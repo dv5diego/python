@@ -29,3 +29,6 @@ if __name__=="__main__":
     empleado=Empleado("Diego","88306966")
     empleado.mostrarDatos()
     print(f"Mostrar Nro Identificacion desde la propiedad: {empleado.identificacion}")
+
+    empleado.identificacion="2030405060"
+    print(f"Mostrar Nro Identificacion desde la propiedad modificada: {empleado.identificacion}")
