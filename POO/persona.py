@@ -28,3 +28,4 @@ class Empleado(Persona):
 if __name__=="__main__":
     empleado=Empleado("Diego","88306966")
     empleado.mostrarDatos()
+    print(f"Mostrar Nro Identificacion desde la propiedad: {empleado.identificacion}")
