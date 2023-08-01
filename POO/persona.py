@@ -15,6 +15,14 @@ class Empleado(Persona):
         super().mostrarDatos()
         print(f"Nro Identificacion: {self.__identificacion}") 
 
+    @property
+    def identificacion(self):
+        return self.__identificacion
+
+    @identificacion.setter
+    def identificacion(self,value):
+        self.__identificacion=value
+
 
 
 if __name__=="__main__":
