@@ -16,9 +16,9 @@ class Madre():
 
 class Hijo(Padre, Madre):
     
-    def __init__(self, nombre, nombrePadre, nombreMadre):
-        Padre.__init__(self, nombrePadre)
-        Madre.__init__(self, nombreMadre)
+    def __init__(self, nombre, nombre_padre, nombre_madre):
+        Padre.__init__(self, nombre_padre)
+        Madre.__init__(self, nombre_madre)
         self.__nombre=nombre
 
     def mostrarHijo(self):
