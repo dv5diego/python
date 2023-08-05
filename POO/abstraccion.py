@@ -1,8 +1,8 @@
 '''
 Ejercicio donde se aplica la abstracción de métodos (uno de los pilares de la POO) 
 en Python a través de la denominada interfaz formal, debido a que no existe la keyword interface como tal.
-Los métodos definidos en la clase Persona se deben implementar de forma obligatoria en las clases
-que hereden de esta.
+Los métodos que se definan clase Padre (Persona) no deben implementar, estos métodos deben implementarse 
+de forma obligatoria en las clases que hereden (clases hijas).
 '''
 from abc import ABCMeta, abstractmethod
 
